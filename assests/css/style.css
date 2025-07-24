@@ -1,0 +1,12 @@
+@keyframes animation-rotate{
+    to{
+        transform: rotate(0deg);
+    }
+    from{
+        transform: rotate(-360deg);
+    }
+}
+
+.badge-image{
+    animation: animation-rotate 10s linear infinite;
+}
